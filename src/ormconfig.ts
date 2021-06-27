@@ -15,9 +15,9 @@ const config: ConnectionOptions = {
   type: 'postgres',
   host: 'localhost',
   port: 5432,
-  username: 'fadcrepin',
-  password: 'jsldfdmp',
-  database: 'azure',
+  username: 'postgres',
+  password: 'admin',
+  database: 'AzureGame',
   entities: ['dist/**/*.entity.js'],
 //   ssl: false,
 //   extra: {
